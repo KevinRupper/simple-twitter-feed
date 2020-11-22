@@ -12,11 +12,11 @@ You will need first to have a Twitter application in your account in order to ge
 
 ### How to run
 
-Use  ``` node server ``` and ``` npm start run ``` to start the app.
+Use  ``` node server``` and ```npm start run``` to start the app.
 
 ### Launch tests
 
-Use ```npm test ``` to run the tests.
+Use ```npm test``` to run the tests.
 
 ### TODO
 
