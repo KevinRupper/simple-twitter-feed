@@ -15,13 +15,12 @@ const app = express()
 app.use(require('cors')())
 app.use(require('body-parser').json())
 
-app.get('/api/home_timeline', (req, res) => {
-  const params = { tweet_mode: 'extended', count: 10 };
+app.get('/api/home_timeline/:count', (req, res) => {
+  const params = { tweet_mode: 'extended', count: req.params.count };
  
   client
     .get(`statuses/home_timeline`, params)
     .then(timeline => {
-      console.log(timeline)
       res.send(timeline)
     })
     .catch(error => { res.send(error) })
