@@ -1,7 +1,7 @@
 # Simple Twitter time line app
 
 <p align="center">
-<img src="https://github.com/KevinRupper/simple-twitter-feed/blob/master/resources/app.png" alt="React Styleguidist" width="550">
+<img src="https://github.com/KevinRupper/simple-twitter-feed/blob/master/resources/app.png" alt="React Styleguidist" width="700">
 </p>
 
 A react app to display your twitter time line.
