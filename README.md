@@ -22,4 +22,4 @@ Use ```npm test ``` to run the tests.
 
  - Add login feature to dynamically obtain ACCESS_TOKEN and ACCESS_TOKEN_SECRET.
  - Simplify app start with concurrently library.
- - Set up a library injection.
+ - Set up an injection library.
